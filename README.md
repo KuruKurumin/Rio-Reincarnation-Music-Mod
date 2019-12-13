@@ -1,6 +1,3 @@
-# Rio Reincarnation Music Mod
-Mod the Music for Rio Reincarnation
-
 # Quick Guide
 
 Convert 56 songs to .ogg format at 48kHz sampling rate. Run the python script and select the converted songs in the order you want.
@@ -30,7 +27,7 @@ This script will then output a file named Bgm.pck in the same folder the script 
 
 Make sure they're in the right order in the file select "File name:" box before pressing Open. Sometimes it can order them weirdly depending on how you select them. Make sure it's right.
 
-I recommend making a backup of your original Bgm.pck file, but it is relatively easy to restore via integrity check if you mess something up as it is only about 50MB. I will also include a link to the original Bgm.pck along with some example music packs.
+I recommend making a backup of your original Bgm.pck file, but it is relatively easy to restore if you mess something up as it is only about 50MB. You can download it from the above link in the Examples section.
 
 Either run this script in a separate folder from your installation directory, or directly in the Data folder inside your installation path (which will then replace your original Bgm.pck file).
 
@@ -61,23 +58,23 @@ Example:
 Then just rename the output.mov to something like 1st_end01.movie and replace the original.
 
 Audio should be AAC(m4a)(48kHz) format for these, since .mov are Apple video files. No need to rename or convert the original .movie files.
-There should be a link to a zip file containing the vids with better music in my guide...
+I made my own videos that can be found in the link above in the Examples section.
 
 To the best of my knowledge, this script will only work with this specific .pck file for this specific game.
 I went through the hex code of the original Bgm.pck and figured out what was what and made a script to automate recreating it with any (.ogg) song files.
-This script is annotated if you want to see how it works. Easier to read with Notepad++ or any other code editor. Relatively straight-forward. Except for when it isn't.
+The script is annotated if you want to see how it works. Easier to read with Notepad++ or any other code editor. Relatively straight-forward. Except for when it isn't.
 
 
 # Notes
 All audio files should have a sampling rate of 48.0kHz. 44.1kHz songs (CD Standard, and probably what your music files are) will sound slightly sped-up and higher pitched. Make sure to convert to 48kHz.
 
 Any images tagged to the audio files will DRASTICALLY increase load times, creating lag and freezes where there would otherwise be none.
-I recommend using a tag editor (https://github.com/Martchus/tageditor) or (https://sourceforge.net/projects/kid3/) to get rid of any pictures/metadata that the converted .ogg files may still have. Of course, a program like iTunes can also do this, albeit less conveniently.
+I recommend using a tag editor (https://github.com/Martchus/tageditor) or (https://sourceforge.net/projects/kid3/) to get rid of any pictures/metadata that the converted .ogg files may still have. Of course, a program like iTunes, Winamp, or foobar2000 can also do this, albeit less conveniently.
 (With tageditor) DO NOT use the Delete button to delete all tags, as this will delete ALL tags and make the file unplayable, the game will then crash when trying to load it.
-I found that some programs (like foobar2000) tended to leave stray empty bytes (rows and rows of 00s) behind in the song file when removing metadata and pictures. You may not care.
-Removing ALL metadata is not strictly necessary, but removing the picture certainly is, assuming you enjoy not waiting 15 seconds every time the song changes in-game.
+I found that some programs (like foobar2000) tended to leave stray empty bytes (rows and rows of 00s) behind in the song file when removing metadata or pictures. You may not care.
+Removing ALL metadata is not strictly necessary, but removing the picture certainly is, assuming you enjoy not waiting 15 seconds every time the music changes in-game.
 
-Audio volume can always be adjusted in-game if the songs you choose are too loud or quiet. I found myself turning the volume down by about 2 in the menu after using my music pack with music from the anime.
+Audio volume can always be adjusted in-game if the songs you choose are too loud or quiet. I found myself turning the volume down by about 2 in the menu after using my music pack.
 
 The original Bgm.pck had each song compressed to 112kbps, but there doesn't seem to be any bitrate limit in the game engine. Just has to be an .ogg.
 I tested with up to 320kbps .ogg files and it worked fine. Only limit is the .ogg container itself, which caps at "10 quality" which is up to about 467-500kbps, I think.
