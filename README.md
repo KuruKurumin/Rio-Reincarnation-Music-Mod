@@ -2,6 +2,8 @@
 
 Convert 56 songs to .ogg format at 48kHz sampling rate. Run the python script and select the converted songs in the order you want.
 
+Make sure none of the .ogg files have any images attached to them. This will cause 10+ second load times EVERY TIME the song changes in-game.
+
 Replace the original Bgm.pck with the one created by the script.
 
 # Examples
@@ -17,7 +19,7 @@ The other difference is that I have high quality (320kbps) and low quality (112k
 
 I quite like the pack I made; I would recommend using it if you get tired of the original soundtrack, or, like me, you just want to listen to the awesome music from the anime.
 
-# Instructions
+# Detailed Instructions
 
 Choose 56 .ogg files (48.0kHz) to replace the original soundtrack 1:1.
 
@@ -40,25 +42,25 @@ That's it.
 
 If you want to better figure out what exactly will replace what when making your own soundtrack, I recommend you download "Dragon UnPACKer" (https://www.elberethzone.net/dragon-unpacker.html).
 You can use that program to rip the audio files from the original Bgm.pck that came with the game. It's what I used to figure a lot of this out.
-It can also rip other common file types from other .pck files from not only this game, but others as well. ;)
+It can also rip other common file types from other .pck files from not only this game, but others as well.
 
 If you want to swap certain songs and not others, just rip the original audio files as mentioned above and use the ripped tracks you want to keep the same in your selection of 56 songs.
 
 If you are looking for an audio converter, both MediaHuman (https://www.mediahuman.com/audio-converter/) and FreeMake (https://www.freemake.com/free_audio_converter/) are good and free.
 I'm more partial to the UI of the MediaHuman audio converter, but both are good.
 
-Unfortunately, replacing the music in Bgm.pck doesn't seem to replace the music for the opening and ending videos. Such a shame :(
+Unfortunately, replacing the music in Bgm.pck doesn't replace the music for the opening and ending videos. Such a shame :(
 I won't be making a script to automate it, but you can easily change the video music yourself with something like ffmpeg (https://www.ffmpeg.org/).
 
-All the videos are stored in ~installdir\DATE A LIVE Rio Reincarnation\Data\ENG\Movie       — There are also Japanese (JPN) and Chinese (CHN) folders that contain separate movies—and other data—for those versions of the game.
+All the videos are stored in ~installdir\DATE A LIVE Rio Reincarnation\Data\ENG\Movie\       — There are also Japanese (JPN) and Chinese (CHN) folders that contain separate movies—and other data—for those versions of the game.
 They are .movie files which is essentially the same as a .mov. Just mux the video together with new audio and output as a .mov then rename to .movie
 Example:
 >`ffmpeg -i video.movie -i newsong.m4a -c copy -map 0:v:0 -map 1:a:0 output.mov`
 
 Then just rename the output.mov to something like 1st_end01.movie and replace the original.
 
-Audio should be AAC(m4a)(48kHz) format for these, since .mov are Apple video files. No need to rename or convert the original .movie files.
-I made my own videos that can be found in the link above in the Examples section.
+Audio should be AAC(m4a)(48kHz) format for this. No need to rename or convert the original .movie files when muxing. Actually, it won't play in-game if you convert it first, as I found out the hard way.
+I made my own videos that can be found at the link above in the Examples section.
 
 To the best of my knowledge, this script will only work with this specific .pck file for this specific game.
 I went through the hex code of the original Bgm.pck and figured out what was what and made a script to automate recreating it with any (.ogg) song files.
