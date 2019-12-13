@@ -12,7 +12,7 @@ A pack I made using this script can be found at: https://mega.nz/#F!6HhVSQgL!LOM
 
 There are also replacements for the videos there where I used ffmpeg to replace the music.
 
-# -----INSTRUCTIONS-----
+# Instructions
 
 Choose 56 .ogg files (48.0kHz) to replace the original soundtrack 1:1.
 
@@ -31,7 +31,7 @@ Replace ~installdir~\DATE A LIVE Rio Reincarnation\Data\Bgm.pck with the Bgm.pck
 Enjoy.
 
 
-# -----EXTRA-----
+# Extra
 
 If you want to better figure out what exactly will replace what when making your own soundtrack, I recommend you download "Dragon UnPACKer" (https://www.elberethzone.net/dragon-unpacker.html).
 You can use that program to rip the audio files from the original Bgm.pck that came with the game. It's what I used to figure a lot of this out.
@@ -57,7 +57,7 @@ I went through the hex code of the original Bgm.pck and figured out what was wha
 This script is annotated if you want to see how it works. Easier to read with Notepad++ or any other code editor. Relatively straight-forward. Except for when it isn't.
 
 
-# -----NOTES-----
+# Notes
 All audio files should have a sampling rate of 48.0kHz. 44.1kHz songs (CD Standard, and probably what your music files are) will sound slightly sped-up and higher pitched. Make sure to convert to 48kHz.
 
 Any images tagged to the audio files will DRASTICALLY increase load times, creating lag and freezes where there would otherwise be none.
