@@ -47,7 +47,9 @@ I won't be making a script to automate it, but you can easily change the video m
 
 All the videos are stored in ~installdir\DATE A LIVE Rio Reincarnation\Data\ENG\Movie       — There are also Japanese (JPN) and Chinese (CHN) folders that contain separate movies—and other data—for those versions of the game.
 They are .movie files which is essentially the same as a .mov. Just mux the video together with new audio and output as a .mov then rename to .movie
-Example: [code]ffmpeg -i video.movie -i newsong.m4a -c copy -map 0:v:0 -map 1:a:0 output.mov[/code] then rename the output.mov to something like 1st_end01.movie and replace the original.
+Example:
+>`ffmpeg -i video.movie -i newsong.m4a -c copy -map 0:v:0 -map 1:a:0 output.mov`
+Then rename the output.mov to something like 1st_end01.movie and replace the original.
 
 Audio should be AAC(m4a)(48kHz) format for these, since .mov are Apple video files. No need to rename or convert the original .movie files.
 There should be a link to a zip file containing the vids with better music in my guide...
