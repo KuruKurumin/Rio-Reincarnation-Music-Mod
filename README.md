@@ -1,4 +1,4 @@
-# Rio-Reincarnation-Music-Mod
+# Rio Reincarnation Music Mod
 Mod the Music for Rio Reincarnation
 
 # Quick Guide
