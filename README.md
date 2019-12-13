@@ -34,9 +34,9 @@ I recommend making a backup of your original Bgm.pck file, but it is relatively 
 
 Either run this script in a separate folder from your installation directory, or directly in the Data folder inside your installation path (which will then replace your original Bgm.pck file).
 
-Replace ~installdir\DATE A LIVE Rio Reincarnation\Data\Bgm.pck with the Bgm.pck created from this script. That's it.
+Replace ~installdir\DATE A LIVE Rio Reincarnation\Data\Bgm.pck with the Bgm.pck created from this script.
 
-Enjoy.
+That's it.
 
 
 # Extra
@@ -82,3 +82,5 @@ Audio volume can always be adjusted in-game if the songs you choose are too loud
 The original Bgm.pck had each song compressed to 112kbps, but there doesn't seem to be any bitrate limit in the game engine. Just has to be an .ogg.
 I tested with up to 320kbps .ogg files and it worked fine. Only limit is the .ogg container itself, which caps at "10 quality" which is up to about 467-500kbps, I think.
 My music packs are at both 112kbps and 320kbps so you can choose based on storage space or sound quality, whichever is more important to you.
+
+Enjoy.
