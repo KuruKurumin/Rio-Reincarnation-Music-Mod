@@ -8,9 +8,17 @@ Convert 56 songs to .ogg format at 48kHz sampling rate. Run the python script an
 Replace the original Bgm.pck with the one created by the script.
 
 # Examples
-A pack I made using this script can be found at: https://mega.nz/#F!6HhVSQgL!LOMuvu9xNF5OU9EjNP7Jmw
+A example music pack I made using this script can be found at: https://mega.nz/#F!6HhVSQgL!LOMuvu9xNF5OU9EjNP7Jmw
 
-There are also replacements for the videos there where I used ffmpeg to replace the music.
+There are also replacements for the videos there where I used ffmpeg to replace the music, as described below.
+
+My music packs were made using music from the Date A Live anime and movie, replacing the tracks as best as I could while retaining the original feel of the music from the visual novel.
+
+All the packs I made are almost identical, with slight differences.
+The main difference is that the ones marked as "With Vocals" have something like 4 songs with vocals in them, that can play when other characters might be talking. If you don't want to hear any singing in the background while characters might be talking, I made a pack replacing those songs with the instrumental or karaoke versions, when available, otherwise swapping with a different song entirely when not available.
+The other difference is that I have high quality (320kbps) and low quality (112kbps) versions available of each. The original Bgm.pck used 112kbps files, so I figured I would provide that quality as well, incase you are short on harddrive space or something.
+
+I quite like the pack I made; I would recommend using it if you get tired of the original soundtrack, or, like me, you just want to listen to the awesome music from the anime.
 
 # Instructions
 
@@ -65,8 +73,8 @@ All audio files should have a sampling rate of 48.0kHz. 44.1kHz songs (CD Standa
 
 Any images tagged to the audio files will DRASTICALLY increase load times, creating lag and freezes where there would otherwise be none.
 I recommend using a tag editor (https://github.com/Martchus/tageditor) or (https://sourceforge.net/projects/kid3/) to get rid of any pictures/metadata that the converted .ogg files may still have. Of course, a program like iTunes can also do this, albeit less conveniently.
-(With tageditor) DO NOT use the Delete button to delete all tags, as this will make the file unplayable and the game will crash when trying to load it.
-I found that some programs (like foobar2000) tended to leave stray empty bytes (rows and rows of 0s) behind in the song file when removing metadata and pictures. You may not care.
+(With tageditor) DO NOT use the Delete button to delete all tags, as this will delete ALL tags and make the file unplayable, the game will then crash when trying to load it.
+I found that some programs (like foobar2000) tended to leave stray empty bytes (rows and rows of 00s) behind in the song file when removing metadata and pictures. You may not care.
 Removing ALL metadata is not strictly necessary, but removing the picture certainly is, assuming you enjoy not waiting 15 seconds every time the song changes in-game.
 
 Audio volume can always be adjusted in-game if the songs you choose are too loud or quiet. I found myself turning the volume down by about 2 in the menu after using my music pack with music from the anime.
@@ -74,6 +82,3 @@ Audio volume can always be adjusted in-game if the songs you choose are too loud
 The original Bgm.pck had each song compressed to 112kbps, but there doesn't seem to be any bitrate limit in the game engine. Just has to be an .ogg.
 I tested with up to 320kbps .ogg files and it worked fine. Only limit is the .ogg container itself, which caps at "10 quality" which is up to about 467-500kbps, I think.
 My music packs are at both 112kbps and 320kbps so you can choose based on storage space or sound quality, whichever is more important to you.
-
-
-I quite like the example pack I made; I would recommend using it if you get tired of the original soundtrack, or, like me, you just want to listen to the awesome music from the anime.
