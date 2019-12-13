@@ -49,7 +49,8 @@ All the videos are stored in ~installdir\DATE A LIVE Rio Reincarnation\Data\ENG\
 They are .movie files which is essentially the same as a .mov. Just mux the video together with new audio and output as a .mov then rename to .movie
 Example:
 >`ffmpeg -i video.movie -i newsong.m4a -c copy -map 0:v:0 -map 1:a:0 output.mov`
-Then rename the output.mov to something like 1st_end01.movie and replace the original.
+
+Then just rename the output.mov to something like 1st_end01.movie and replace the original.
 
 Audio should be AAC(m4a)(48kHz) format for these, since .mov are Apple video files. No need to rename or convert the original .movie files.
 There should be a link to a zip file containing the vids with better music in my guide...
@@ -75,5 +76,4 @@ I tested with up to 320kbps .ogg files and it worked fine. Only limit is the .og
 My music packs are at both 112kbps and 320kbps so you can choose based on storage space or sound quality, whichever is more important to you.
 
 
-I think the pack I made using anime music turned out great; I would recommend using it if you get tired of the original soundtrack, or, like me, you just want to listen to the awesome music from the anime.
-
+I quite like the example pack I made; I would recommend using it if you get tired of the original soundtrack, or, like me, you just want to listen to the awesome music from the anime.
