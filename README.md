@@ -19,6 +19,9 @@ The other difference is that I have high quality (320kbps) and low quality (112k
 
 I quite like the pack I made; I would recommend using it if you get tired of the original soundtrack, or, like me, you just want to listen to the awesome music from the anime.
 
+Replace ~\DATE A LIVE Rio Reincarnation\Data\Bgm.pck with the music pack of your choice.
+For videos, replace the files in ~\DATE A LIVE Rio Reincarnation\Data\ENG\Movie\ with the files in New Videos (ENG).zip.
+
 # Detailed Instructions
 
 Choose 56 .ogg files (48.0kHz) to replace the original soundtrack 1:1.
