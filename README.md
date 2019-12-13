@@ -14,7 +14,7 @@ There are also replacements for the videos there where I used ffmpeg to replace 
 My music packs were made using music from the Date A Live anime and movie, replacing the tracks as best as I could while retaining the original feel of the music from the visual novel.
 
 All the packs I made are almost identical, with slight differences.
-The main difference is that the ones marked as "With Vocals" have something like 4 songs with vocals in them, that can play when other characters might be talking. If you don't want to hear any singing in the background while characters might be talking, I made a pack replacing those songs with the instrumental or karaoke versions, when available, otherwise swapping with a different song entirely when not available.
+The main difference is that the ones marked as "With Vocals" have 5 songs with vocals in them, that can play when other characters might be talking. If you don't want to hear any singing in the background while characters might be talking, I made a pack replacing those songs with the instrumental or karaoke versions, when available, otherwise swapping with a different song entirely when not available.
 The other difference is that I have high quality (320kbps) and low quality (112kbps) versions available of each. The original Bgm.pck used 112kbps files, so I figured I would provide that quality as well, incase you are short on harddrive space or something.
 
 I quite like the pack I made; I would recommend using it if you get tired of the original soundtrack, or, like me, you just want to listen to the awesome music from the anime.
