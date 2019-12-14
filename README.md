@@ -7,7 +7,13 @@ Make sure none of the .ogg files have any images attached to them. This will cau
 Replace the original Bgm.pck with the one created by the script.
 
 # Examples
-A example music pack I made using this script can be found at: https://mega.nz/#F!6HhVSQgL!LOMuvu9xNF5OU9EjNP7Jmw OR https://drive.google.com/drive/folders/11t02L8Lfg7jC787Ls1a0pjxe2NsaesBO?usp=sharing
+A example music pack I made using this script can be found at:
+
+https://mega.nz/#F!6HhVSQgL!LOMuvu9xNF5OU9EjNP7Jmw
+
+OR
+
+https://drive.google.com/drive/folders/11t02L8Lfg7jC787Ls1a0pjxe2NsaesBO?usp=sharing
 
 There are also replacements for the videos there where I used ffmpeg to replace the music, as described below.
 
@@ -17,7 +23,9 @@ All the packs I made are almost identical, with slight differences.
 The main difference is that the ones marked as "With Vocals" have 5 songs with vocals in them, that can play when other characters might be talking. If you don't want to hear any singing in the background while characters might be talking, I made a pack replacing those songs with the instrumental or karaoke versions, when available, otherwise swapping with a different song entirely when not available.
 The other difference is that I have high quality (320kbps) and low quality (112kbps) versions available of each. The original Bgm.pck used 112kbps files, so I figured I would provide that quality as well, incase you are short on harddrive space or something.
 
-I quite like the pack I made; I would recommend using it if you get tired of the original soundtrack, or, like me, you just want to listen to the awesome music from the anime.
+The original ending videos for each route all used the same song, and I felt like it would be more appropriate if each character had a different song play for their endings. I tried to pick songs that fit them best, but some characters were harder to find a song roughly 2 minutes long that fit their personality. A couple of the videos might look a tiny bit choppy (like Miku's) since I had to add or cut some frames to make the video the same length as the song I picked. Regardless, they turned out way better than the originals in my opinion. The opening video is also way more hype with the song I added.
+
+I think they all turned out pretty good; I would recommend using it if you get tired of the original soundtrack, or, like me, you just want to listen to the awesome music from the anime.
 
 Replace ~\DATE A LIVE Rio Reincarnation\Data\Bgm.pck with the music pack of your choice.
 
