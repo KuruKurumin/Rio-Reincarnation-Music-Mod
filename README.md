@@ -7,7 +7,7 @@ Make sure none of the .ogg files have any images attached to them. This will cau
 Replace the original Bgm.pck with the one created by the script.
 
 # Examples
-A example music pack I made using this script can be found at:
+Example music packs I made using this script can be found at:
 
 https://mega.nz/#F!6HhVSQgL!LOMuvu9xNF5OU9EjNP7Jmw
 
@@ -15,9 +15,9 @@ OR
 
 https://drive.google.com/drive/folders/11t02L8Lfg7jC787Ls1a0pjxe2NsaesBO?usp=sharing
 
-There are also replacements for the videos there where I used ffmpeg to replace the music, as described below.
+There are also alternate videos where I used ffmpeg to replace the music, as described below.
 
-My music packs were made using music from the Date A Live anime and movie, replacing the tracks as best as I could while retaining the original feel of the music from the visual novel.
+My music packs were made using music from the Date A Live anime and movie, replacing the tracks as best as I could while retaining the original feel of the music from the visual novel. I only left one track the same, because I couldn't find anything that fit the mood better.
 
 All the packs I made are almost identical, with slight differences.
 The main difference is that the ones marked as "With Vocals" have 5 songs with vocals in them, that can play when other characters might be talking. If you don't want to hear any singing in the background while characters might be talking, I made a pack replacing those songs with the instrumental or karaoke versions, when available, otherwise swapping with a different song entirely when not available.
