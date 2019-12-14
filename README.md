@@ -7,7 +7,7 @@ Make sure none of the .ogg files have any images attached to them. This will cau
 Replace the original Bgm.pck with the one created by the script.
 
 # Examples
-A example music pack I made using this script can be found at: https://mega.nz/#F!6HhVSQgL!LOMuvu9xNF5OU9EjNP7Jmw
+A example music pack I made using this script can be found at: https://mega.nz/#F!6HhVSQgL!LOMuvu9xNF5OU9EjNP7Jmw OR https://drive.google.com/drive/folders/11t02L8Lfg7jC787Ls1a0pjxe2NsaesBO?usp=sharing
 
 There are also replacements for the videos there where I used ffmpeg to replace the music, as described below.
 
