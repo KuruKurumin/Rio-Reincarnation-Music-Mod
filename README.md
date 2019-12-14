@@ -25,9 +25,9 @@ The other difference is that I have high quality (320kbps) and low quality (112k
 
 The original ending videos for each route all used the same song, and I felt like it would be more appropriate if each character had a different song play for their endings. I tried to pick songs that fit them best, but some characters were harder to find a song roughly 2 minutes long that fit their personality. A couple of the videos might look a tiny bit choppy (like Miku's) since I had to add or cut some frames to make the video the same length as the song I picked. Regardless, they turned out way better than the originals in my opinion. The opening video is also way more hype with the song I added.
 
-I think they all turned out pretty good; I would recommend using it if you get tired of the original soundtrack, or, like me, you just want to listen to the awesome music from the anime.
+I think they all turned out pretty good; I would recommend using them if you get tired of the original soundtrack, or, like me, you just want to listen to the awesome music from the anime.
 
-Replace ~\DATE A LIVE Rio Reincarnation\Data\Bgm.pck with the music pack of your choice.
+For background music, replace ~\DATE A LIVE Rio Reincarnation\Data\Bgm.pck with the music pack of your choice.
 
 For videos, replace the files in ~\DATE A LIVE Rio Reincarnation\Data\ENG\Movie\ with the files in New Videos (ENG).zip.
 
